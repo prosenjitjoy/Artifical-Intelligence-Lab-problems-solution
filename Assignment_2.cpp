@@ -246,11 +246,11 @@ int main()
     grid[s_row][s_column] = '#';
   }
 
-  cout << "Enter the position of robot: ";
+  cout << "Enter the position of Robot: ";
   cin >> s_row >> s_column;
   grid[s_row][s_column] = 's';
 
-  cout << "Enter the position of target: ";
+  cout << "Enter the position of Target: ";
   cin >> t_row >> t_column;
   grid[t_row][t_column] = 't';
 
